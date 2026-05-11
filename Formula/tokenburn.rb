@@ -1,25 +1,25 @@
 class Tokenburn < Formula
   desc "Track token usage and burn for Claude Code and Codex"
   homepage "https://github.com/RMahshie/tokenburn"
-  version "1.0.1"
+  version "1.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.1/tokenburn-aarch64-apple-darwin.tar.xz"
-      sha256 "4014f382f78da4048b5ff29760fa7d011632635473bef2b74e7db2172297a4d3"
+      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.4/tokenburn-aarch64-apple-darwin.tar.xz"
+      sha256 "6412fdbcf27bf09d68d807cfc2c57e796f89a12091217a42ddf72d5306633603"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.1/tokenburn-x86_64-apple-darwin.tar.xz"
-      sha256 "fed7bff9d05f34bb28be8ef35011d5b8502d0b821ae762a6fd7ba83dd6209b0e"
+      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.4/tokenburn-x86_64-apple-darwin.tar.xz"
+      sha256 "ba9dcfb9e24e20a0c3331ad90bd605a253557643591527bea7dbd12010fb603c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.1/tokenburn-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e0bdaee758d1797e85a384c416ca830ce1e2111776771263fb107f52e37ef98d"
+      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.4/tokenburn-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "eb572c9670170dd5c748175c10794bc02c7ad4d221d0e95ecf0847f122b71a42"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.1/tokenburn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7f5cb686bc6e3b03422421a6b378601730154a4e95482acfc5ccfae0e5e5d60b"
+      url "https://github.com/RMahshie/tokenburn/releases/download/v1.0.4/tokenburn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "aad56261c5d139fe52fa888e7b4610cb1bf953f5247da9692df87d949586087e"
     end
   end
   license "MIT"
